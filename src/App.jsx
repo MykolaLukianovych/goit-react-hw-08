@@ -24,6 +24,7 @@ function App() {
     dispatch(refreshUser());
   }, [dispatch]);
   const isRefreshing = useSelector(selectIsRefreshing);
+  
   return isRefreshing ? (
     <Loader />
   ) : (

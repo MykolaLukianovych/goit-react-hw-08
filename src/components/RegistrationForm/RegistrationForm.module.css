@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapInput {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.input {
+  padding: 5px;
+}
+
+.formError {
+  color: red;
+}
+
+.btnRegister {
+  padding: 5px;
+  border-radius: 8px;
+  width: 100px;
+  background-color: lightgreen;
+  font-weight: 600;
+  margin-bottom: 15px;
+}

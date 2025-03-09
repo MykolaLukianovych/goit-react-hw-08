@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Loader from '../../components/Loader/Loader';
-import { MdContactPhone } from 'react-icons/md';
 import ContactForm from '../../components/ContactForm/ContactForm';
 import ContactList from '../../components/ContactList/ContactList';
 import SearchBox from '../../components/SearchBox/SearchBox';
@@ -23,7 +22,7 @@ const ContactsPage = () => {
     <>
       <div className={s.containerPhonebook}>
         <h1 className={s.title}>
-          Phonebook <MdContactPhone size="30" />
+          Phonebook
         </h1>
         <ContactForm />
         <SearchBox />

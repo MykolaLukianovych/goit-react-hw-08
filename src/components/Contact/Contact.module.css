@@ -1,4 +1,4 @@
-.contactItem {
+.contactContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,17 @@
   border-radius: 4px;
 }
 
-.button {
+.contactData {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.contactBtnDelete {
   padding: 5px;
+  background-color: orangered;
+  border-radius: 8px;
 }
